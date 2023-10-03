@@ -1,0 +1,106 @@
+name: simpleworld
+description: A new Flutter project.
+
+version: 1.21.0+22           
+
+environment: 
+  sdk: ">=2.14.4 <3.0.0"
+
+dependencies:
+  cloud_firestore: ^4.7.0
+  firebase_core: ^2.12.0
+  firebase_messaging: ^14.6.0
+  firebase_storage: ^11.2.0
+  firebase_auth: ^4.6.0
+  flutter_facebook_auth: ^5.0.11
+  google_sign_in: ^6.1.0
+  image_picker: ^1.0.4
+  uuid: ^3.0.7
+  image: ^4.1.2
+  cupertino_icons: ^1.0.4
+  path_provider: ^2.0.2
+  flutter_svg: ^2.0.7
+  cached_network_image: ^3.0.0
+  timeago: ^3.0.2
+  material_design_icons_flutter: ^7.0.7296
+  font_awesome_flutter: ^10.4.0
+  flutter_svg_provider: ^1.0.4
+  fluttertoast: ^8.0.7
+  photo_view: ^0.14.0
+  container_tab_indicator: ^0.3.0
+  nb_utils: ^6.0.4
+  google_fonts: ^4.0.4
+  provider: ^6.0.2
+  story_view: ^0.15.0
+  share: ^2.0.4
+  url_launcher: ^6.1.14
+  flutter_linkify: ^6.0.0
+  simple_animations: ^5.0.0+3
+  ionicons: ^0.2.2
+  link_preview_generator: ^1.1.0
+  another_flushbar: ^1.10.20
+  fluttericon: ^2.0.0
+  flutter_reaction_button: ^2.0.0+1
+  file_picker: ^5.2.10
+  visibility_detector: ^0.3.3
+  filesize: ^2.0.1
+  easy_pdf_viewer: ^1.0.1
+  adaptive_theme: ^3.2.1
+  video_player: ^2.2.5
+  flick_video_player: ^0.5.0
+  string_validator: ^1.0.0
+  google_mobile_ads: ^3.0.0
+  equatable: ^2.0.3
+  json_annotation: ^4.4.0
+  badges: ^3.1.1
+  iconly: ^1.0.1
+  video_compress: ^3.1.0
+  webview_flutter: ^4.2.0
+  flutter_mobx: ^2.0.0
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.0
+  geolocator: ^10.1.0
+  geolocator_web: ^2.1.4
+  geocoding: ^2.0.2
+  giphy_get: ^3.4.0
+  in_app_purchase: ^3.1.10
+  scoped_model: ^2.0.0-nullsafety.0
+  sign_in_with_apple: ^5.0.0
+  crypto: ^3.0.1
+  connectivity_plus: ^4.0.2
+  flutter_bloc: ^8.1.2
+  persistent_bottom_nav_bar: ^5.0.2
+
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  generate: true
+  uses-material-design: true
+ 
+
+  assets:
+    - assets/icon.png
+    - assets/images/
+    
+
+
+    
+

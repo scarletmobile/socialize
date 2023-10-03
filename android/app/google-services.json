@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "901700965107",
+    "project_id": "soxialz-ba685",
+    "storage_bucket": "soxialz-ba685.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901700965107:android:e9035d02813d34ce5a1d86",
+        "android_client_info": {
+          "package_name": "com.app.soxialz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901700965107-kjkl43b4jggjlf4b6dvmcpb07fqcie4m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.soxialz",
+            "certificate_hash": "0f891fe2b32512db00c3d07816158cb1e344ea80"
+          }
+        },
+        {
+          "client_id": "901700965107-08qglv91vqp16gqr9pser4gu6q15f57a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC00RhX8BzUYzbZd4ZR8uAEz9SSG4YENOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901700965107-08qglv91vqp16gqr9pser4gu6q15f57a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_notification_channel_id" translatable="false">AAAAlgUPmMw:APA91bFZ7QjSHqDZIhAxsrwR3g8smnWFpp7vO1KvXKvLOUP-u4NNUK9y9bKmq-A2-6MqN3HI_E8ErP8gGSzE45iAnlkQcp3Fx3VpYh150Q_vxbz5ZaKDIw5uWuSroQZBUVg4TnbiSo_7	
+</string>
+<string name="facebook_app_id">1087531262211831</string>
+<string name="fb_login_protocol_scheme">fb1087531262211831</string>
+<string name="facebook_client_token">4ba634813b03c3e21f420f8e5519568e</string>
+</resources>
