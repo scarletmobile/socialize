@@ -3,11 +3,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:simpleworld/models/user.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/widgets/progress.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
-import 'package:simpleworld/widgets/users_to_follow_tile.dart';
+import 'package:soXialz/models/user.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/widgets/progress.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
+import 'package:soXialz/widgets/users_to_follow_tile.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class UsersToFollowList extends StatefulWidget {

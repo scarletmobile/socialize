@@ -3,13 +3,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:simpleworld/flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:soXialz/flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/pages/post_screen_album.dart';
-import 'package:simpleworld/widgets/header.dart';
-import 'package:simpleworld/widgets/photo_grid.dart';
-import 'package:simpleworld/widgets/simple_World_Widgets.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/pages/post_screen_album.dart';
+import 'package:soXialz/widgets/header.dart';
+import 'package:soXialz/widgets/photo_grid.dart';
+import 'package:soXialz/widgets/simple_World_Widgets.dart';
 
 class Discover extends StatefulWidget {
   // ignore: non_constant_identifier_names

@@ -3,9 +3,9 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:simpleworld/constant/constant.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
-import 'package:simpleworld/widgets/splashscreen.dart';
+import 'package:soXialz/constant/constant.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
+import 'package:soXialz/widgets/splashscreen.dart';
 import 'firebase_options.dart';
 import 'app.dart';
 
@@ -25,7 +25,7 @@ Future<void> main() async {
       runApp(
         MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: "soXialZ",
+          title: "soXialz",
           home: SplashScreen(
             userId: globalID,
           ),

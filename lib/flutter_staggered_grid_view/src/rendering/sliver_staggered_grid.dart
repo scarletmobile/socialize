@@ -4,8 +4,8 @@ import 'dart:math' as math;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/rendering.dart';
 
-import 'package:simpleworld/flutter_staggered_grid_view/src/widgets/staggered_tile.dart';
-import 'package:simpleworld/flutter_staggered_grid_view/src/rendering/sliver_variable_size_box_adaptor.dart';
+import 'package:soXialz/flutter_staggered_grid_view/src/widgets/staggered_tile.dart';
+import 'package:soXialz/flutter_staggered_grid_view/src/rendering/sliver_variable_size_box_adaptor.dart';
 
 /// Signature for a function that creates [StaggeredTile] for a given index.
 typedef IndexedStaggeredTileBuilder = StaggeredTile? Function(int index);

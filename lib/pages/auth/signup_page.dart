@@ -4,16 +4,16 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:simpleworld/models/user.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/pages/auth/login_page.dart';
-import 'package:simpleworld/pages/auth/signup_page2.dart';
-import 'package:simpleworld/pages/webview/webview.dart';
-import 'package:simpleworld/share_preference/preferences_key.dart';
-import 'package:simpleworld/widgets/bezier_container.dart';
+import 'package:soXialz/models/user.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/pages/auth/login_page.dart';
+import 'package:soXialz/pages/auth/signup_page2.dart';
+import 'package:soXialz/pages/webview/webview.dart';
+import 'package:soXialz/share_preference/preferences_key.dart';
+import 'package:soXialz/widgets/bezier_container.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
 
 class SignUpPage extends StatefulWidget {
   const SignUpPage({Key? key}) : super(key: key);
@@ -214,7 +214,7 @@ class _SignUpPageState extends State<SignUpPage> {
         setState(() {
           isLoading = false;
         });
-        simpleworldtoast("Error", "Username is taken ", context);
+        soXialztoast("Error", "Username is taken ", context);
       } else {
         final User? user = (await _auth.createUserWithEmailAndPassword(
           email: emailController.text.trim(),
@@ -228,7 +228,7 @@ class _SignUpPageState extends State<SignUpPage> {
             isAuth = false;
             isLoading = false;
           });
-          simpleworldtoast(
+          soXialztoast(
               "Error", "Something went wrong please try again ", context);
         }
       }
@@ -238,7 +238,7 @@ class _SignUpPageState extends State<SignUpPage> {
         isLoading = false;
       });
       // print(e.toString());
-      simpleworldtoast("Error",
+      soXialztoast("Error",
           "The email address is already in use by another account", context);
     }
   }
@@ -361,7 +361,7 @@ class _SignUpPageState extends State<SignUpPage> {
     return RichText(
       textAlign: TextAlign.center,
       text: TextSpan(
-        text: 'soXialZ',
+        text: 'soXialz',
         style: GoogleFonts.portLligatSans(
           textStyle: Theme.of(context).textTheme.headline4,
           fontSize: 30,

@@ -3,12 +3,12 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:simpleworld/pages/auth/add_credit_to_account.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/pages/user_to_follow.dart';
-import 'package:simpleworld/widgets/bezier_container.dart';
-import 'package:simpleworld/widgets/progress.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
+import 'package:soXialz/pages/auth/add_credit_to_account.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/pages/user_to_follow.dart';
+import 'package:soXialz/widgets/bezier_container.dart';
+import 'package:soXialz/widgets/progress.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class CreateAccount extends StatefulWidget {

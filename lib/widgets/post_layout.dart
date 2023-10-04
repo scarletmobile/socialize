@@ -11,22 +11,22 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:link_preview_generator/link_preview_generator.dart';
 import 'package:nb_utils/src/extensions/widget_extensions.dart';
 import 'package:share/share.dart';
-import 'package:simpleworld/data/reaction_data.dart';
-import 'package:simpleworld/models/user.dart';
-import 'package:simpleworld/pages/activity_feed.dart';
-import 'package:simpleworld/widgets/count/comments_count.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/pages/post_screen.dart';
-import 'package:simpleworld/pages/post_screen_album.dart';
-import 'package:simpleworld/widgets/album_posts.dart';
-import 'package:simpleworld/widgets/count/reaction_button.dart';
-import 'package:simpleworld/widgets/count/reactions_count.dart';
-import 'package:simpleworld/widgets/multi_manager/flick_multi_manager.dart';
-import 'package:simpleworld/widgets/multi_manager/flick_multi_player.dart';
-import 'package:simpleworld/widgets/photo_grid.dart';
-import 'package:simpleworld/widgets/progress.dart';
-import 'package:simpleworld/widgets/simple_World_Widgets.dart';
-import 'package:simpleworld/widgets/single_post.dart';
+import 'package:soXialz/data/reaction_data.dart';
+import 'package:soXialz/models/user.dart';
+import 'package:soXialz/pages/activity_feed.dart';
+import 'package:soXialz/widgets/count/comments_count.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/pages/post_screen.dart';
+import 'package:soXialz/pages/post_screen_album.dart';
+import 'package:soXialz/widgets/album_posts.dart';
+import 'package:soXialz/widgets/count/reaction_button.dart';
+import 'package:soXialz/widgets/count/reactions_count.dart';
+import 'package:soXialz/widgets/multi_manager/flick_multi_manager.dart';
+import 'package:soXialz/widgets/multi_manager/flick_multi_player.dart';
+import 'package:soXialz/widgets/photo_grid.dart';
+import 'package:soXialz/widgets/progress.dart';
+import 'package:soXialz/widgets/simple_World_Widgets.dart';
+import 'package:soXialz/widgets/single_post.dart';
 import 'package:string_validator/string_validator.dart';
 import 'package:timeago/timeago.dart';
 import 'package:visibility_detector/visibility_detector.dart';
@@ -865,6 +865,6 @@ class _PostLayoutState extends State<PostLayout> {
 
   reportPost() async {
     reportsRef.doc(postId).set({});
-    simpleworldtoast("", "Post was reported to Admin", context);
+    soXialztoast("", "Post was reported to Admin", context);
   }
 }

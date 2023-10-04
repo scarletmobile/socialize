@@ -8,27 +8,27 @@ import 'package:flutter/cupertino.dart';
 import "package:flutter/material.dart";
 import 'package:flutter_svg/svg.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:simpleworld/models/user.dart';
-import 'package:simpleworld/pages/activity_feed.dart';
-import 'package:simpleworld/pages/chat/simpleworld_chat_main.dart';
-import 'package:simpleworld/pages/menu/all_pdfs.dart';
-import 'package:simpleworld/pages/menu/all_stories.dart';
-import 'package:simpleworld/pages/comming_soon_page.dart';
-import 'package:simpleworld/pages/menu/dialogs/vip_dialog.dart';
-import 'package:simpleworld/pages/menu/discover.dart';
-import 'package:simpleworld/pages/all_videos.dart';
-import 'package:simpleworld/pages/edit_profile.dart';
-import 'package:simpleworld/pages/menu/help_support.dart';
-import 'package:simpleworld/pages/menu/quiz.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/pages/auth/login_page.dart';
-import 'package:simpleworld/pages/users.dart';
-import 'package:simpleworld/share_preference/preferences_key.dart';
-import 'package:simpleworld/widgets/header.dart';
-import 'package:simpleworld/widgets/language_picker_widget.dart';
-import 'package:simpleworld/widgets/progress.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
-import 'package:simpleworld/data/reaction_data.dart' as Reaction;
+import 'package:soXialz/models/user.dart';
+import 'package:soXialz/pages/activity_feed.dart';
+import 'package:soXialz/pages/chat/soxialz_chat_main.dart';
+import 'package:soXialz/pages/menu/all_pdfs.dart';
+import 'package:soXialz/pages/menu/all_stories.dart';
+import 'package:soXialz/pages/comming_soon_page.dart';
+import 'package:soXialz/pages/menu/dialogs/vip_dialog.dart';
+import 'package:soXialz/pages/menu/discover.dart';
+import 'package:soXialz/pages/all_videos.dart';
+import 'package:soXialz/pages/edit_profile.dart';
+import 'package:soXialz/pages/menu/help_support.dart';
+import 'package:soXialz/pages/menu/quiz.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/pages/auth/login_page.dart';
+import 'package:soXialz/pages/users.dart';
+import 'package:soXialz/share_preference/preferences_key.dart';
+import 'package:soXialz/widgets/header.dart';
+import 'package:soXialz/widgets/language_picker_widget.dart';
+import 'package:soXialz/widgets/progress.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
+import 'package:soXialz/data/reaction_data.dart' as Reaction;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class SettingsPage extends StatefulWidget {
@@ -168,7 +168,7 @@ class _SettingsState extends State<SettingsPage> {
                         Navigator.push(
                             context,
                             CupertinoPageRoute(
-                              builder: (context) => const SimpleWorldChat(),
+                              builder: (context) => const soXialzChat(),
                             ));
                       }),
                     ],

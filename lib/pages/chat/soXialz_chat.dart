@@ -13,13 +13,13 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:ionicons/ionicons.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:simpleworld/config/size_config.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/widgets/full_image_widget.dart';
-import 'package:simpleworld/widgets/chat_appbar.dart';
-import 'package:simpleworld/widgets/progress.dart';
+import 'package:soXialz/config/size_config.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/widgets/full_image_widget.dart';
+import 'package:soXialz/widgets/chat_appbar.dart';
+import 'package:soXialz/widgets/progress.dart';
 import 'package:intl/intl.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class Chat extends StatelessWidget {

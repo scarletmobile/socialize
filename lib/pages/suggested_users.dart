@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:simpleworld/paginate_firestore/paginate_firestore.dart';
-import 'package:simpleworld/models/user.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
-import 'package:simpleworld/widgets/suggested_users_tile.dart';
+import 'package:soXialz/paginate_firestore/paginate_firestore.dart';
+import 'package:soXialz/models/user.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
+import 'package:soXialz/widgets/suggested_users_tile.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class SuggestedUsersList extends StatefulWidget {

@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import "package:flutter/material.dart";
 import 'package:nb_utils/nb_utils.dart';
-import 'package:simpleworld/pages/menu/about_us.dart';
-import 'package:simpleworld/pages/menu/privacy_policy.dart';
-import 'package:simpleworld/pages/menu/term_of_use.dart';
-import 'package:simpleworld/widgets/header.dart';
-import 'package:simpleworld/widgets/progress.dart';
+import 'package:soXialz/pages/menu/about_us.dart';
+import 'package:soXialz/pages/menu/privacy_policy.dart';
+import 'package:soXialz/pages/menu/term_of_use.dart';
+import 'package:soXialz/widgets/header.dart';
+import 'package:soXialz/widgets/progress.dart';
 
 class HelpSupportPage extends StatefulWidget {
   final String? currentUserId;

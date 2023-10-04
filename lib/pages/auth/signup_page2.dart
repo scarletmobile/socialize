@@ -10,10 +10,10 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/pages/user_to_follow.dart';
-import 'package:simpleworld/widgets/bezier_container.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/pages/user_to_follow.dart';
+import 'package:soXialz/widgets/bezier_container.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
 
 class GetAvatar extends StatefulWidget {
   final String? currentUserId;
@@ -79,7 +79,7 @@ class _GetAvatarState extends State<GetAvatar> {
     return RichText(
       textAlign: TextAlign.center,
       text: TextSpan(
-        text: 'soXialZ',
+        text: 'soXialz',
         style: GoogleFonts.portLligatSans(
           textStyle: Theme.of(context).textTheme.headline4,
           fontSize: 30,

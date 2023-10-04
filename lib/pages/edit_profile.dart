@@ -6,13 +6,13 @@ import "package:flutter/material.dart";
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:simpleworld/models/user.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/pages/auth/login_page.dart';
-import 'package:simpleworld/pages/profile.dart';
-import 'package:simpleworld/widgets/progress.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
-import 'package:simpleworld/data/reaction_data.dart' as Reaction;
+import 'package:soXialz/models/user.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/pages/auth/login_page.dart';
+import 'package:soXialz/pages/profile.dart';
+import 'package:soXialz/widgets/progress.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
+import 'package:soXialz/data/reaction_data.dart' as Reaction;
 
 class EditProfile extends StatefulWidget {
   final String? currentUserId;

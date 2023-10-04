@@ -3,9 +3,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-import 'package:simpleworld/pages/chat/simpleworld_chat_main.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/widgets/circle_button.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/widgets/circle_button.dart';
+import '../../pages/chat/soxialz_chat_main.dart';
 
 class MessagesCount extends StatefulWidget {
   final String? currentUserId;
@@ -73,7 +73,7 @@ class MessagesState extends State<MessagesCount> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => const SimpleWorldChat()),
+                        builder: (context) => const soXialzChat()),
                   );
                 },
               ),
@@ -86,7 +86,7 @@ class MessagesState extends State<MessagesCount> {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => const SimpleWorldChat()),
+                    builder: (context) => const soXialzChat()),
               );
             },
           );

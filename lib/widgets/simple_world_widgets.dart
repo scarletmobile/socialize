@@ -117,7 +117,7 @@ Widget nbAppTextFieldWidget(TextEditingController controller, String hintText,
   );
 }
 
-simpleworldtoast(title, msg, BuildContext context) {
+soXialztoast(title, msg, BuildContext context) {
   Flushbar(
     title: title,
     message: msg,

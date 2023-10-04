@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:nb_utils/nb_utils.dart';
 
-import 'package:simpleworld/models/onboarding_model.dart';
-import 'package:simpleworld/pages/auth/login_page.dart';
-import 'package:simpleworld/data/onboarding_data.dart';
+import 'package:soXialz/models/onboarding_model.dart';
+import 'package:soXialz/pages/auth/login_page.dart';
+import 'package:soXialz/data/onboarding_data.dart';
 
 class WalkThroughScreen extends StatefulWidget {
   static String tag = '/WalkThroughScreen';

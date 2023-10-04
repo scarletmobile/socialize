@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simpleworld/l10n/l10n.dart';
+import 'package:soXialz/l10n/l10n.dart';
 
 class LocaleProvider extends ChangeNotifier {
   Locale? _locale;

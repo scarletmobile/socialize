@@ -1,6 +1,6 @@
 import "package:flutter/material.dart";
-import 'package:simpleworld/widgets/header.dart';
-import 'package:simpleworld/widgets/progress.dart';
+import 'package:soXialz/widgets/header.dart';
+import 'package:soXialz/widgets/progress.dart';
 
 class PrivacyPolicyPage extends StatefulWidget {
   final String? currentUserId;

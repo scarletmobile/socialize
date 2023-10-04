@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/rendering.dart';
-import 'package:simpleworld/flutter_staggered_grid_view/src/rendering/tile_container_render_object_mixin.dart';
+import 'package:soXialz/flutter_staggered_grid_view/src/rendering/tile_container_render_object_mixin.dart';
 
 /// A delegate used by [RenderSliverVariableSizeBoxAdaptor] to manage its children.
 ///

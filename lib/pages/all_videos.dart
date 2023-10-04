@@ -3,12 +3,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_reaction_button/flutter_reaction_button.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:simpleworld/paginate_firestore/bloc/pagination_listeners.dart';
-import 'package:simpleworld/paginate_firestore/paginate_firestore.dart';
-import 'package:simpleworld/data/reaction_data.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/widgets/header.dart';
-import 'package:simpleworld/widgets/post_layout.dart';
+import 'package:soXialz/paginate_firestore/bloc/pagination_listeners.dart';
+import 'package:soXialz/paginate_firestore/paginate_firestore.dart';
+import 'package:soXialz/data/reaction_data.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/widgets/header.dart';
+import 'package:soXialz/widgets/post_layout.dart';
 
 class AllVideos extends StatefulWidget {
   // ignore: non_constant_identifier_names

@@ -9,14 +9,14 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:simpleworld/config/palette.dart';
-import 'package:simpleworld/l10n/l10n.dart';
-import 'package:simpleworld/pages/WalkThroughScreen.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/pages/auth/login_page.dart';
-import 'package:simpleworld/provider/locale_provider.dart';
-import 'package:simpleworld/share_preference/preferences_key.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
+import 'package:soXialz/config/palette.dart';
+import 'package:soXialz/l10n/l10n.dart';
+import 'package:soXialz/pages/WalkThroughScreen.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/pages/auth/login_page.dart';
+import 'package:soXialz/provider/locale_provider.dart';
+import 'package:soXialz/share_preference/preferences_key.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class App extends StatefulWidget {
@@ -142,7 +142,7 @@ class _AppState extends State<App> with WidgetsBindingObserver {
           ),
           initial: widget.savedThemeMode ?? AdaptiveThemeMode.light,
           builder: (theme, darkTheme) => MaterialApp(
-            title: 'soXialZ',
+            title: 'soXialz',
             theme: theme,
             darkTheme: darkTheme,
             debugShowCheckedModeBanner: false,

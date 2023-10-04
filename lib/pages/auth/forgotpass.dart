@@ -3,9 +3,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nb_utils/src/extensions/widget_extensions.dart';
-import 'package:simpleworld/widgets/bezier_container.dart';
-import 'package:simpleworld/widgets/progress.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
+import 'package:soXialz/widgets/bezier_container.dart';
+import 'package:soXialz/widgets/progress.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
 import 'forgetpass2.dart';
 
 class ForgetPass extends StatefulWidget {
@@ -145,11 +145,11 @@ class _ForgetPassState extends State<ForgetPass> {
         if (emailValid) {
           _signInWithEmailAndPassword();
         } else {
-          simpleworldtoast(
+          soXialztoast(
               "Error", "Please, Enter a valid Email Address", context);
         }
       } else {
-        simpleworldtoast(
+        soXialztoast(
             "Error",
             "Please, Enter your Email Address for reset your password",
             context);
@@ -203,7 +203,7 @@ class _ForgetPassState extends State<ForgetPass> {
     } catch (e) {
       setState(() {
         isLoading = false;
-        simpleworldtoast("Error", e.toString(), context);
+        soXialztoast("Error", e.toString(), context);
       });
     }
   }

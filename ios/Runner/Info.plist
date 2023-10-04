@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>soXialZ</string>
+	<string>soXialz</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>soXialZ</string>
+	<string>soXialz</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -45,11 +45,11 @@
 	<key>NSCameraUsageDescription</key>
 	<string>Used to make post using images from your camera</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>soXialZ needs access to location to use check in function in app, where users can add there current location to their own posts if they want.</string>
+	<string>soXialz needs access to location to use check in function in app, where users can add there current location to their own posts if they want.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>soXialZ needs access to location to use check in function in app, where users can add there current location to their own posts if they want</string>
+	<string>soXialz needs access to location to use check in function in app, where users can add there current location to their own posts if they want</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Used to capture audio for soXialZ</string>
+	<string>Used to capture audio for soXialz</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Used to make post using images from your Gallery</string>
 	<key>UIBackgroundModes</key>

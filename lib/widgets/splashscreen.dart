@@ -3,12 +3,12 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:simpleworld/constant/constant.dart';
-import 'package:simpleworld/models/user.dart';
-import 'package:simpleworld/widgets/bezier_container.dart';
-import 'package:simpleworld/widgets/bezier_containernew.dart';
-import 'package:simpleworld/widgets/progress.dart';
-import 'package:simpleworld/widgets/simple_World_Widgets.dart';
+import 'package:soXialz/constant/constant.dart';
+import 'package:soXialz/models/user.dart';
+import 'package:soXialz/widgets/bezier_container.dart';
+import 'package:soXialz/widgets/bezier_containernew.dart';
+import 'package:soXialz/widgets/progress.dart';
+import 'package:soXialz/widgets/simple_World_Widgets.dart';
 
 class SplashScreen extends StatefulWidget {
   final String? userId;
@@ -63,7 +63,7 @@ class SplashScreenState extends State<SplashScreen>
     return RichText(
       textAlign: TextAlign.center,
       text: TextSpan(
-        text: 'soXialZ',
+        text: 'soXialz',
         style: GoogleFonts.portLligatSans(
           textStyle: Theme.of(context).textTheme.headline4,
           fontSize: 30,
@@ -102,7 +102,7 @@ class SplashScreenState extends State<SplashScreen>
     return RichText(
       textAlign: TextAlign.center,
       text: TextSpan(
-        text: 'soXialZ',
+        text: 'soXialz',
         style: GoogleFonts.portLligatSans(
           textStyle: Theme.of(context).textTheme.headline4,
           fontSize: 30,
@@ -200,7 +200,7 @@ class SplashScreenState extends State<SplashScreen>
 //     return RichText(
 //       textAlign: TextAlign.center,
 //       text: TextSpan(
-//         text: 'soXialZ',
+//         text: 'soXialz',
 //         style: GoogleFonts.portLligatSans(
 //           textStyle: Theme.of(context).textTheme.headline4,
 //           fontSize: 30,

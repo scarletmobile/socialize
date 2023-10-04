@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simpleworld/story/simpleworld_stories.dart';
+import 'package:soXialz/story/soXialz_stories.dart';
 
 class StoryList extends StatefulWidget {
   const StoryList({Key? key}) : super(key: key);
@@ -22,7 +22,7 @@ class _StoryListState extends State<StoryList> {
         backgroundColor: Theme.of(context).backgroundColor,
         body: ListView(
           children: [
-            SimpleWorldStories(
+            soXialzStories(
               collectionDbName: collectionDbName,
               showTitleOnIcon: true,
               iconTextStyle: const TextStyle(

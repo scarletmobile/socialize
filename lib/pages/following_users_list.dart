@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:simpleworld/paginate_firestore/bloc/pagination_listeners.dart';
-import 'package:simpleworld/paginate_firestore/paginate_firestore.dart';
+import 'package:soXialz/paginate_firestore/bloc/pagination_listeners.dart';
+import 'package:soXialz/paginate_firestore/paginate_firestore.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/widgets/followers_tile.dart';
-import 'package:simpleworld/widgets/header.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/widgets/followers_tile.dart';
+import 'package:soXialz/widgets/header.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
 
 class followingList extends StatefulWidget {
   final String userId;

@@ -2,16 +2,16 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:simpleworld/config/palette.dart';
-import 'package:simpleworld/pages/home.dart';
+import 'package:soXialz/config/palette.dart';
+import 'package:soXialz/pages/home.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:simpleworld/pages/post_screen.dart';
-import 'package:simpleworld/pages/profile.dart';
-import 'package:simpleworld/widgets/anchored_adaptive_ads.dart';
-import 'package:simpleworld/widgets/header.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
+import 'package:soXialz/pages/post_screen.dart';
+import 'package:soXialz/pages/profile.dart';
+import 'package:soXialz/widgets/anchored_adaptive_ads.dart';
+import 'package:soXialz/widgets/header.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
 import 'package:timeago/timeago.dart' as timeago;
-import 'package:simpleworld/data/reaction_data.dart' as Reaction;
+import 'package:soXialz/data/reaction_data.dart' as Reaction;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class ActivityFeed extends StatefulWidget {
@@ -145,7 +145,7 @@ class _ActivityFeedState extends State<ActivityFeed> {
                 text: TextSpan(
                     style: const TextStyle(
                       fontSize: 14.0,
-                      color: Palette.simpleWorldText,
+                      color: Palette.soXialzText,
                     ),
                     children: [
                       TextSpan(

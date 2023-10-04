@@ -2,14 +2,10 @@ import 'dart:io';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_reaction_button/flutter_reaction_button.dart';
-import 'package:simpleworld/data/reaction_data.dart' as reaction;
-import 'package:simpleworld/pages/users.dart';
-import '../data/reaction_data.dart';
+import 'package:soXialz/data/reaction_data.dart' as reaction;
+import 'package:soXialz/pages/users.dart';
 import '../data/reaction_data.dart';
 import '../models/user.dart';
-import '../widgets/count/feeds_count.dart';
-import '../widgets/simple_World_Widgets.dart';
 import 'activity_feed.dart';
 import 'home.dart';
 import 'new_timeline.dart';
@@ -135,6 +131,7 @@ class _HomeScreenState extends State<HomeScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [ // Top spacing
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
                   CircleAvatar(
                     maxRadius: 25,
@@ -162,15 +159,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   //     width: 40,
                   //   ),
                   //),
-
-                  SizedBox(width: 240,),
-                  IconButton(
-                    onPressed: () {},
-                    icon: Icon(
-                     Icons.chat,
-                      color: Colors.white,
-                    ),
-                  ),
                   IconButton(
                     onPressed: () {
                       Navigator.push(context,
@@ -315,7 +303,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                   ),
                                   child: Image.asset('assets/images/invite_frnd.png')
                               ),
-                              Text('Invite Friend')
+                              Text('Invite Friend', 
+                                style: TextStyle(fontSize: 12),)
                             ],
                           ),
                         ),
@@ -331,7 +320,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                 ),
                                 child: Image.asset('assets/images/daily_bonus.png')
                             ),
-                            Text('Daily Bonus'),
+                            Text('Daily Bonus',
+                                style: TextStyle(fontSize: 12),),
                           ],
                         ),
                         Column(
@@ -346,7 +336,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                 ),
                                 child: Image.asset('assets/images/survey.png')
                             ),
-                            Text('Surveys'),
+                            Text('Surveys',
+                                style: TextStyle(fontSize: 12),),
                           ],
                         ),
                         Column(
@@ -361,7 +352,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                 ),
                                 child: Image.asset('assets/images/quiz2.png'),
                             ),
-                            Text('Quiz')
+                            Text('Quiz',
+                              style: TextStyle(fontSize: 12),)
                           ],
                         ),
                       ],
@@ -392,7 +384,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                 child: Image.asset('assets/images/social_network.png')
                               ),
                             ),
-                            Text('Social Network')
+                            Text('Social Network',
+                              style: TextStyle(fontSize: 12),)
                           ],
                         ),
                         Column(
@@ -407,7 +400,8 @@ class _HomeScreenState extends State<HomeScreen> {
                               ),
                               child: Image.asset('assets/images/prediction.png')
                             ),
-                            Text('Predict & Win'),
+                            Text('Predict & Win',
+                              style: TextStyle(fontSize: 12),),
                           ],
                         ),
                         Column(
@@ -422,7 +416,8 @@ class _HomeScreenState extends State<HomeScreen> {
                               ),
                               child: Image.asset('assets/images/challenges.png')
                             ),
-                            Text('Challenges'),
+                            Text('Challenges',
+                              style: TextStyle(fontSize: 12),),
                           ],
                         ),
                         Column(
@@ -437,7 +432,8 @@ class _HomeScreenState extends State<HomeScreen> {
                               ),
                               child: Image.asset('assets/images/video_desk.png',)
                             ),
-                            Text('Video Desk'),
+                            Text('Video Desk',
+                              style: TextStyle(fontSize: 12),),
                             // Text(globalName!.capitalize(),
                             //     style: const TextStyle(
                             //         fontSize: 16.0,

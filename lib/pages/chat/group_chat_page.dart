@@ -5,10 +5,10 @@ import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:ionicons/ionicons.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-import 'package:simpleworld/config/size_config.dart';
-import 'package:simpleworld/services/database_service.dart';
-import 'package:simpleworld/widgets/groupchatdrawer.dart';
-import 'package:simpleworld/widgets/message_tile.dart';
+import 'package:soXialz/config/size_config.dart';
+import 'package:soXialz/services/database_service.dart';
+import 'package:soXialz/widgets/groupchatdrawer.dart';
+import 'package:soXialz/widgets/message_tile.dart';
 import 'package:image_picker/image_picker.dart';
 
 import '../../widgets/imageMessage_tile.dart';
@@ -413,10 +413,10 @@ class _ChatPageState extends State<ChatPage> {
 // import 'package:flutter_svg/flutter_svg.dart';
 // import 'package:ionicons/ionicons.dart';
 // import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-// import 'package:simpleworld/config/size_config.dart';
-// import 'package:simpleworld/services/database_service.dart';
-// import 'package:simpleworld/widgets/groupchatdrawer.dart';
-// import 'package:simpleworld/widgets/message_tile.dart';
+// import 'package:soXialz/config/size_config.dart';
+// import 'package:soXialz/services/database_service.dart';
+// import 'package:soXialz/widgets/groupchatdrawer.dart';
+// import 'package:soXialz/widgets/message_tile.dart';
 //
 // class ChatPage extends StatefulWidget {
 //   final String groupId;

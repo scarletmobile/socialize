@@ -6,21 +6,22 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:iconly/iconly.dart';
-import 'package:simpleworld/models/user.dart';
-import 'package:simpleworld/pages/activity_feed.dart';
-import 'package:simpleworld/pages/home_screen.dart';
-import 'package:simpleworld/pages/menu/discover.dart';
-import 'package:simpleworld/pages/new_timeline.dart';
-import 'package:simpleworld/pages/menu/settings.dart';
-import 'package:simpleworld/pages/profile.dart';
-import 'package:simpleworld/pages/search.dart';
+import 'package:soXialz/models/user.dart';
+import 'package:soXialz/pages/activity_feed.dart';
+import 'package:soXialz/pages/home_screen.dart';
+import 'package:soXialz/pages/menu/discover.dart';
+import 'package:soXialz/pages/new_timeline.dart';
+import 'package:soXialz/pages/menu/settings.dart';
+import 'package:soXialz/pages/profile.dart';
+import 'package:soXialz/pages/search.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:simpleworld/pages/users.dart';
-import 'package:simpleworld/widgets/circle_button.dart';
-import 'package:simpleworld/widgets/count/feeds_count.dart';
-import 'package:simpleworld/widgets/count/messages_count.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
-import 'package:simpleworld/data/reaction_data.dart' as Reaction;
+import 'package:soXialz/pages/tournament_screen.dart';
+import 'package:soXialz/pages/users.dart';
+import 'package:soXialz/widgets/circle_button.dart';
+
+import 'package:soXialz/widgets/count/messages_count.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
+import 'package:soXialz/data/reaction_data.dart' as Reaction;
 import '../paginate_firestore/bloc/pagination_listeners.dart';
 
 final GoogleSignIn googleSignIn = GoogleSignIn();
@@ -74,6 +75,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
     FirebaseMessaging.instance.getInitialMessage().then((message) {});
     _tabController.addListener(_handleTabSelection);
   }
+
 
   @override
   void dispose() {
@@ -158,7 +160,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
               Row(
                 children: <Widget>[
                   Text(
-                    'soXialZ',
+                    'soXialz',
                     style: GoogleFonts.portLligatSans(
                       textStyle: Theme.of(context).textTheme.headline4,
                     ),
@@ -224,7 +226,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
                 profileId: widget.userId,
                 reactions: Reaction.reactions,
               ),
-              const ActivityFeed(),
+              //const ActivityFeed(),
+              TournamentScreen(),
               SettingsPage(currentUserId: widget.userId),
             ],
           ),
@@ -292,7 +295,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
               //backgroundColor: Theme.of(context).tabBarTheme.labelColor,
             ),
             BottomNavigationBarItem(
-              icon: _tabController.index == 2
+              icon: _tabController.index == 5
                   ? const Icon(
                 IconlyBold.category,
                 color: Color(0xFF39569C),
@@ -324,19 +327,19 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
 // import 'package:flutter/material.dart';
 // import 'package:google_fonts/google_fonts.dart';
 // import 'package:iconly/iconly.dart';
-// import 'package:simpleworld/models/user.dart';
-// import 'package:simpleworld/pages/activity_feed.dart';
-// import 'package:simpleworld/pages/new_timeline.dart';
-// import 'package:simpleworld/pages/menu/settings.dart';
-// import 'package:simpleworld/pages/profile.dart';
-// import 'package:simpleworld/pages/search.dart';
+// import 'package:soXialz/models/user.dart';
+// import 'package:soXialz/pages/activity_feed.dart';
+// import 'package:soXialz/pages/new_timeline.dart';
+// import 'package:soXialz/pages/menu/settings.dart';
+// import 'package:soXialz/pages/profile.dart';
+// import 'package:soXialz/pages/search.dart';
 // import 'package:google_sign_in/google_sign_in.dart';
-// import 'package:simpleworld/pages/users.dart';
-// import 'package:simpleworld/widgets/circle_button.dart';
-// import 'package:simpleworld/widgets/count/feeds_count.dart';
-// import 'package:simpleworld/widgets/count/messages_count.dart';
-// import 'package:simpleworld/widgets/simple_world_widgets.dart';
-// import 'package:simpleworld/data/reaction_data.dart' as Reaction;
+// import 'package:soXialz/pages/users.dart';
+// import 'package:soXialz/widgets/circle_button.dart';
+// import 'package:soXialz/widgets/count/feeds_count.dart';
+// import 'package:soXialz/widgets/count/messages_count.dart';
+// import 'package:soXialz/widgets/simple_world_widgets.dart';
+// import 'package:soXialz/data/reaction_data.dart' as Reaction;
 //
 // import '../paginate_firestore/bloc/pagination_listeners.dart';
 //
@@ -479,7 +482,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
 //               Row(
 //                 children: <Widget>[
 //                   Text(
-//                     'soXialZ',
+//                     'soXialz',
 //                     style: GoogleFonts.portLligatSans(
 //                       textStyle: Theme.of(context).textTheme.headline4,
 //                     ),

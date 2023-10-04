@@ -11,15 +11,15 @@ import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:giphy_get/giphy_get.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:simpleworld/models/user.dart';
-import 'package:simpleworld/pages/comming_soon_page.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/pages/auth/login_page.dart';
-import 'package:simpleworld/pages/create_post/pdf_upload.dart';
-import 'package:simpleworld/pages/create_post/upload.dart';
+import 'package:soXialz/models/user.dart';
+import 'package:soXialz/pages/comming_soon_page.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/pages/auth/login_page.dart';
+import 'package:soXialz/pages/create_post/pdf_upload.dart';
+import 'package:soXialz/pages/create_post/upload.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:simpleworld/pages/create_post/video_upload.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
+import 'package:soXialz/pages/create_post/video_upload.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
 import 'package:uuid/uuid.dart';
 import 'package:video_compress/video_compress.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -99,7 +99,7 @@ class _AddPostState extends State<AddPost>
           int size = newvediofile!.lengthSync();
           double sizeInMb = size / (1024 * 1024);
           if (sizeInMb > 5) {
-            simpleworldtoast("", "File Size is larger then 5mb", context);
+            soXialztoast("", "File Size is larger then 5mb", context);
             return;
           }
           await navigator.push(MaterialPageRoute(
@@ -135,7 +135,7 @@ class _AddPostState extends State<AddPost>
         String pdfsize = "$size";
         double sizeInMb = size / (1024 * 1024);
         if (sizeInMb > 5) {
-          simpleworldtoast("", "File Size is larger then 5mb", context);
+          soXialztoast("", "File Size is larger then 5mb", context);
           return;
         }
         await navigator.push(MaterialPageRoute(
@@ -236,7 +236,7 @@ class _AddPostState extends State<AddPost>
 
               handleSubmitontext();
             } else {
-              simpleworldtoast("Error", "Write something", context);
+              soXialztoast("Error", "Write something", context);
             }
           })
         ],

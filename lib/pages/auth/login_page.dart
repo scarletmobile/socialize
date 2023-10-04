@@ -14,19 +14,19 @@ import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
-import 'package:simpleworld/models/user.dart';
-import 'package:simpleworld/pages/auth/create_account.dart';
-import 'package:simpleworld/pages/auth/forgotpass.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/pages/auth/signup_page.dart';
-import 'package:simpleworld/pages/menu/term_of_use.dart';
-import 'package:simpleworld/share_preference/preferences_key.dart';
-import 'package:simpleworld/widgets/bezier_container.dart';
+import 'package:soXialz/models/user.dart';
+import 'package:soXialz/pages/auth/create_account.dart';
+import 'package:soXialz/pages/auth/forgotpass.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/pages/auth/signup_page.dart';
+import 'package:soXialz/pages/menu/term_of_use.dart';
+import 'package:soXialz/share_preference/preferences_key.dart';
+import 'package:soXialz/widgets/bezier_container.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:simpleworld/widgets/language_picker_widget_home.dart';
-import 'package:simpleworld/widgets/progress.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
+import 'package:soXialz/widgets/language_picker_widget_home.dart';
+import 'package:soXialz/widgets/progress.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
 
 GloabalUser? currentUser;
 
@@ -141,7 +141,7 @@ class _LoginPageState extends State<LoginPage> {
             emailNode.unfocus();
             passwordNode.unfocus();
           });
-          simpleworldtoast(
+          soXialztoast(
               "Error", "Please, Enter a valid Email Address", context);
         }
       } else {
@@ -149,7 +149,7 @@ class _LoginPageState extends State<LoginPage> {
           emailNode.unfocus();
           passwordNode.unfocus();
         });
-        simpleworldtoast("Error", "Email and password is required", context);
+        soXialztoast("Error", "Email and password is required", context);
       }
     });
   }
@@ -175,7 +175,7 @@ class _LoginPageState extends State<LoginPage> {
       setState(() {
         isLoading = false;
       });
-      simpleworldtoast(
+      soXialztoast(
           "Error", "You have entered wrong email or password", context);
     }
   }
@@ -222,7 +222,7 @@ class _LoginPageState extends State<LoginPage> {
               setState(() {
                 isLoading = false;
               });
-              simpleworldtoast("Error",
+              soXialztoast("Error",
                   'Failed to sign in with Google, please try again:', context);
             }
           });
@@ -483,7 +483,7 @@ class _LoginPageState extends State<LoginPage> {
         isLoading = false;
       });
       print(e);
-      simpleworldtoast("Error", 'Failed to sign in with Google', context);
+      soXialztoast("Error", 'Failed to sign in with Google', context);
     }
   }
 
@@ -519,7 +519,7 @@ class _LoginPageState extends State<LoginPage> {
         isLoading = false;
       });
       print(e);
-      simpleworldtoast("Error", 'Failed to sign in with Facebook', context);
+      soXialztoast("Error", 'Failed to sign in with Facebook', context);
     }
   }
 
@@ -675,7 +675,7 @@ class _LoginPageState extends State<LoginPage> {
     return RichText(
       textAlign: TextAlign.center,
       text: TextSpan(
-        text: 'soXialZ',
+        text: 'soXialz',
         style: GoogleFonts.portLligatSans(
           textStyle: Theme.of(context).textTheme.headline4,
           fontSize: 30,
@@ -774,7 +774,7 @@ class _LoginPageState extends State<LoginPage> {
       isLoading = false;
     });
     print(e);
-    return simpleworldtoast(
+    return soXialztoast(
         "Error", 'Failed to sign in with Apple ID', context);
   }
 

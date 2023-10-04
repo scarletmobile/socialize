@@ -47,9 +47,9 @@ class DefaultFirebaseOptions {
     apiKey: 'AIzaSyCTWb_K676F8EmCkKdyyIH1rxpEcgVinEI',
     appId: '1:901700965107:web:953bad96b5bab90b5a1d86',
     messagingSenderId: '901700965107',
-    projectId: 'soxialz-ba685',
-    authDomain: 'soxialz-ba685.firebaseapp.com',
-    storageBucket: 'soxialz-ba685.appspot.com',
+    projectId: 'soXialz-ba685',
+    authDomain: 'soXialz-ba685.firebaseapp.com',
+    storageBucket: 'soXialz-ba685.appspot.com',
     measurementId: 'G-S098C2D7Z7',
   );
 
@@ -57,29 +57,29 @@ class DefaultFirebaseOptions {
     apiKey: 'AIzaSyC00RhX8BzUYzbZd4ZR8uAEz9SSG4YENOg',
     appId: '1:901700965107:android:e9035d02813d34ce5a1d86',
     messagingSenderId: '901700965107',
-    projectId: 'soxialz-ba685',
-    storageBucket: 'soxialz-ba685.appspot.com',
+    projectId: 'soXialz-ba685',
+    storageBucket: 'soXialz-ba685.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyC5BrwzA0jb0M3gqsjY9BOMZWVLLscLIxg',
     appId: '1:901700965107:ios:256b65959a6b778b5a1d86',
     messagingSenderId: '901700965107',
-    projectId: 'soxialz-ba685',
-    storageBucket: 'soxialz-ba685.appspot.com',
+    projectId: 'soXialz-ba685',
+    storageBucket: 'soXialz-ba685.appspot.com',
     androidClientId: '901700965107-kjkl43b4jggjlf4b6dvmcpb07fqcie4m.apps.googleusercontent.com',
     iosClientId: '901700965107-aq3nqci3bcv3nnq98c6qlon99o5cu9lu.apps.googleusercontent.com',
-    iosBundleId: 'com.app.soxialz',
+    iosBundleId: 'com.app.soXialz',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyC5BrwzA0jb0M3gqsjY9BOMZWVLLscLIxg',
     appId: '1:901700965107:ios:7bd8468a4a84c8905a1d86',
     messagingSenderId: '901700965107',
-    projectId: 'soxialz-ba685',
-    storageBucket: 'soxialz-ba685.appspot.com',
+    projectId: 'soXialz-ba685',
+    storageBucket: 'soXialz-ba685.appspot.com',
     androidClientId: '901700965107-kjkl43b4jggjlf4b6dvmcpb07fqcie4m.apps.googleusercontent.com',
     iosClientId: '901700965107-pofli4euh5tm51hpibftcn5aplpl200e.apps.googleusercontent.com',
-    iosBundleId: 'com.example.simpleworld',
+    iosBundleId: 'com.example.soXialz',
   );
 }

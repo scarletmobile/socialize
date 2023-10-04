@@ -13,7 +13,7 @@ header(context,
     ),
     automaticallyImplyLeading: removeBackButton ? false : true,
     title: Text(
-      isAppTitle ? "soXialZ" : titleText!,
+      isAppTitle ? "soXialz" : titleText!,
       style: Theme.of(context).textTheme.headline5!.copyWith(
             fontWeight: FontWeight.bold,
             fontSize: 20,

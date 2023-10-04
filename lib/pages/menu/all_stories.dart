@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:simpleworld/story/all_simpleworld_stories.dart';
-import 'package:simpleworld/widgets/header.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
+import 'package:soXialz/story/all_soXialz_stories.dart';
+import 'package:soXialz/widgets/header.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
 
 class AllStories extends StatefulWidget {
   final String? userId;
@@ -40,7 +40,7 @@ class _UsersListState extends State<AllStories>
       appBar: widget.showappbar
           ? header(context, titleText: "All Stories", removeBackButton: false)
           : null,
-      body: AllSimpleWorldStories(
+      body: AllsoXialzStories(
         collectionDbName: collectionDbName,
         showTitleOnIcon: true,
         iconTextStyle: const TextStyle(

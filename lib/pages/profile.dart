@@ -10,25 +10,25 @@ import 'package:flutter_reaction_button/flutter_reaction_button.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:simpleworld/models/user.dart';
-import 'package:simpleworld/pages/comming_soon_page.dart';
-import 'package:simpleworld/pages/disliked_list.dart';
-import 'package:simpleworld/pages/followers_list.dart';
-import 'package:simpleworld/pages/following_users_list.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/pages/auth/login_page.dart';
-import 'package:simpleworld/pages/create_post/post_box.dart';
-import 'package:simpleworld/pages/chat/simpleworld_chat.dart';
-import 'package:simpleworld/pages/edit_profile.dart';
-import 'package:simpleworld/pages/liked_list.dart';
-import 'package:simpleworld/pages/menu/dialogs/store_products.dart';
-import 'package:simpleworld/pages/ppviewed_list.dart';
-import 'package:simpleworld/story/add_story.dart';
-import 'package:simpleworld/widgets/header.dart';
-import 'package:simpleworld/widgets/multi_manager/flick_multi_manager.dart';
-import 'package:simpleworld/widgets/progress.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
-import 'package:simpleworld/widgets/single_post.dart';
+import 'package:soXialz/models/user.dart';
+import 'package:soXialz/pages/comming_soon_page.dart';
+import 'package:soXialz/pages/disliked_list.dart';
+import 'package:soXialz/pages/followers_list.dart';
+import 'package:soXialz/pages/following_users_list.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/pages/auth/login_page.dart';
+import 'package:soXialz/pages/create_post/post_box.dart';
+import 'package:soXialz/pages/chat/soXialz_chat.dart';
+import 'package:soXialz/pages/edit_profile.dart';
+import 'package:soXialz/pages/liked_list.dart';
+import 'package:soXialz/pages/menu/dialogs/store_products.dart';
+import 'package:soXialz/pages/ppviewed_list.dart';
+import 'package:soXialz/story/add_story.dart';
+import 'package:soXialz/widgets/header.dart';
+import 'package:soXialz/widgets/multi_manager/flick_multi_manager.dart';
+import 'package:soXialz/widgets/progress.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
+import 'package:soXialz/widgets/single_post.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class Profile extends StatefulWidget {
@@ -1058,7 +1058,7 @@ class _ProfileState extends State<Profile> {
                             () async {
                               if (noCredit) {
                                 Navigator.of(context).pop();
-                                simpleworldtoast(
+                                soXialztoast(
                                     AppLocalizations.of(context)!.error,
                                     AppLocalizations.of(context)!
                                         .not_enough_credit_10,
@@ -1100,7 +1100,7 @@ class _ProfileState extends State<Profile> {
                             () async {
                               if (noCredit) {
                                 Navigator.of(context).pop();
-                                simpleworldtoast(
+                                soXialztoast(
                                     AppLocalizations.of(context)!.error,
                                     AppLocalizations.of(context)!
                                         .not_enough_credit_20,
@@ -1150,7 +1150,7 @@ class _ProfileState extends State<Profile> {
                             () async {
                               if (noCredit) {
                                 Navigator.of(context).pop();
-                                simpleworldtoast(
+                                soXialztoast(
                                     AppLocalizations.of(context)!.error,
                                     AppLocalizations.of(context)!
                                         .not_enough_credit_10,
@@ -1191,7 +1191,7 @@ class _ProfileState extends State<Profile> {
                             () async {
                               if (noCredit) {
                                 Navigator.of(context).pop();
-                                simpleworldtoast(
+                                soXialztoast(
                                     AppLocalizations.of(context)!.error,
                                     AppLocalizations.of(context)!
                                         .not_enough_credit_20,
@@ -1251,7 +1251,7 @@ class _ProfileState extends State<Profile> {
                             () {
                               if (noCredit) {
                                 Navigator.of(context).pop();
-                                simpleworldtoast(
+                                soXialztoast(
                                     "Error",
                                     "Does not have enough credits, please get more then 10 credits",
                                     context);
@@ -1281,7 +1281,7 @@ class _ProfileState extends State<Profile> {
                             () {
                               if (noCredit) {
                                 Navigator.of(context).pop();
-                                simpleworldtoast(
+                                soXialztoast(
                                     "Error",
                                     "Does not have enough credits, please get more then 20 credits",
                                     context);
@@ -1317,7 +1317,7 @@ class _ProfileState extends State<Profile> {
                           () {
                             if (noCredit) {
                               Navigator.of(context).pop();
-                              simpleworldtoast(
+                              soXialztoast(
                                   "Error",
                                   "Does not have enough credits, please get more then 10 credits",
                                   context);
@@ -1346,7 +1346,7 @@ class _ProfileState extends State<Profile> {
                           () {
                             if (noCredit) {
                               Navigator.of(context).pop();
-                              simpleworldtoast(
+                              soXialztoast(
                                   "Error",
                                   "Does not have enough credits, please get more then 20 credits",
                                   context);
@@ -1380,7 +1380,7 @@ class _ProfileState extends State<Profile> {
                           () {
                             if (noCredit) {
                               Navigator.of(context).pop();
-                              simpleworldtoast(
+                              soXialztoast(
                                   "Error",
                                   "Does not have enough credits, please get more then 10 credits",
                                   context);
@@ -1410,7 +1410,7 @@ class _ProfileState extends State<Profile> {
                           () {
                             if (noCredit) {
                               Navigator.of(context).pop();
-                              simpleworldtoast(
+                              soXialztoast(
                                   "Error",
                                   "Does not have enough credits, please get more then 20 credits",
                                   context);

@@ -4,8 +4,8 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
 
 class VipDialog extends StatelessWidget {
   final String photourl;
@@ -29,7 +29,7 @@ class VipDialog extends StatelessWidget {
     getVerifiedBadge() {
       bool noCredit = credits < 1500;
       if (noCredit) {
-        simpleworldtoast(
+        soXialztoast(
             "Error",
             "Does not have enough credits, please get more then 1500 credits",
             context);
@@ -38,7 +38,7 @@ class VipDialog extends StatelessWidget {
           "credit_points": FieldValue.increment(-1500),
           'userIsVerified': true,
         });
-        simpleworldtoast("Purchase Successful",
+        soXialztoast("Purchase Successful",
             "Congratulations!, You have got the verified Badge", context);
       }
     }
@@ -46,7 +46,7 @@ class VipDialog extends StatelessWidget {
     getNoAds() {
       bool noCredit = credits < 600;
       if (noCredit) {
-        simpleworldtoast(
+        soXialztoast(
             "Error",
             "Does not have enough credits, please get more then 600 credits",
             context);
@@ -55,7 +55,7 @@ class VipDialog extends StatelessWidget {
           "credit_points": FieldValue.increment(-600),
           'no_ads': true,
         });
-        simpleworldtoast("Purchase Successful",
+        soXialztoast("Purchase Successful",
             "Congratulations!, You Won't see any more ADS", context);
       }
     }

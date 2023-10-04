@@ -4,7 +4,7 @@ import 'dart:math';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart'; // or other relevant imports
-import 'package:simpleworld/models/user.dart';
+import 'package:soXialz/models/user.dart';
 
 class GloabalUser {
   final String id;

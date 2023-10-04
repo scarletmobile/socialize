@@ -1,19 +1,19 @@
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
-import 'package:simpleworld/pages/chat/GroupChatlist.dart';
-import 'package:simpleworld/pages/menu/all_stories.dart';
-import 'package:simpleworld/pages/chat/simpleworld_messenger.dart';
+import 'package:soXialz/pages/chat/GroupChatlist.dart';
+import 'package:soXialz/pages/menu/all_stories.dart';
+import 'package:soXialz/pages/chat/soXialz_messenger.dart';
 
-class SimpleWorldChat extends StatefulWidget {
+class soXialzChat extends StatefulWidget {
   final String? userId;
 
-  const SimpleWorldChat({Key? key, this.userId}) : super(key: key);
+  const soXialzChat({Key? key, this.userId}) : super(key: key);
 
   @override
-  _SimpleWorldChatState createState() => _SimpleWorldChatState();
+  _soXialzChatState createState() => _soXialzChatState();
 }
 
-class _SimpleWorldChatState extends State<SimpleWorldChat>
+class _soXialzChatState extends State<soXialzChat>
     with SingleTickerProviderStateMixin {
   final _scaffoldKey = GlobalKey<ScaffoldState>();
 

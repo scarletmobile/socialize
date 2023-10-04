@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nb_utils/src/extensions/widget_extensions.dart';
-import 'package:simpleworld/pages/auth/login_page.dart';
-import 'package:simpleworld/widgets/bezier_container.dart';
-import 'package:simpleworld/widgets/progress.dart';
+import 'package:soXialz/pages/auth/login_page.dart';
+import 'package:soXialz/widgets/bezier_container.dart';
+import 'package:soXialz/widgets/progress.dart';
 
 class ForgetPass2 extends StatefulWidget {
   const ForgetPass2({Key? key}) : super(key: key);
@@ -61,7 +61,7 @@ class _ForgetPass2State extends State<ForgetPass2> {
     return RichText(
       textAlign: TextAlign.center,
       text: TextSpan(
-        text: 'soXialZ',
+        text: 'soXialz',
         style: GoogleFonts.portLligatSans(
           textStyle: Theme.of(context).textTheme.headline4,
           fontSize: 30,

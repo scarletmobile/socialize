@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:simpleworld/config/palette.dart';
-import 'package:simpleworld/story/add_story.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
+import 'package:soXialz/config/palette.dart';
+import 'package:soXialz/story/add_story.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'models/stories.dart';
 import 'models/stories_list_with_pressed.dart';
@@ -16,7 +16,7 @@ import 'grouped_stories_view.dart';
 
 export 'grouped_stories_view.dart';
 
-class SimpleWorldStories extends StatefulWidget {
+class soXialzStories extends StatefulWidget {
   final String collectionDbName;
   final String languageCode;
 
@@ -51,7 +51,7 @@ class SimpleWorldStories extends StatefulWidget {
   final bool repeat;
   final bool inline;
 
-  SimpleWorldStories(
+  soXialzStories(
       {required this.collectionDbName,
       this.lastIconHighlight = false,
       this.lastIconHighlightColor = Colors.deepOrange,
@@ -87,11 +87,11 @@ class SimpleWorldStories extends StatefulWidget {
       this.languageCode = 'en'});
 
   @override
-  _SimpleWorldStoriesStoriesState createState() =>
-      _SimpleWorldStoriesStoriesState();
+  _soXialzStoriesStoriesState createState() =>
+      _soXialzStoriesStoriesState();
 }
 
-class _SimpleWorldStoriesStoriesState extends State<SimpleWorldStories> {
+class _soXialzStoriesStoriesState extends State<soXialzStories> {
   late StoriesData _storiesData;
   final _firestore = FirebaseFirestore.instance;
   bool _backStateAdditional = false;

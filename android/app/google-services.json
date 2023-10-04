@@ -37,6 +37,13 @@
             {
               "client_id": "901700965107-08qglv91vqp16gqr9pser4gu6q15f57a.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "901700965107-aq3nqci3bcv3nnq98c6qlon99o5cu9lu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.soxialz"
+              }
             }
           ]
         }

@@ -31,7 +31,7 @@ class Palette {
   static const Color shadowColordark = Color(0xFF424242);
   static const Color inputfillcolordark = Color(0xff242526);
 
-  static const Color simpleWorldText = Color(0xFF161f3d);
+  static const Color soXialzText = Color(0xFF161f3d);
 
   static const LinearGradient storyGradient = LinearGradient(
     begin: Alignment.topCenter,

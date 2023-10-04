@@ -1,12 +1,12 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:simpleworld/models/user.dart';
-import 'package:simpleworld/pages/activity_feed.dart';
+import 'package:soXialz/models/user.dart';
+import 'package:soXialz/pages/activity_feed.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:simpleworld/pages/home.dart';
-import 'package:simpleworld/widgets/progress.dart';
-import 'package:simpleworld/widgets/simple_world_widgets.dart';
+import 'package:soXialz/pages/home.dart';
+import 'package:soXialz/widgets/progress.dart';
+import 'package:soXialz/widgets/simple_world_widgets.dart';
 
 class UserToFollowTile extends StatefulWidget {
   final GloabalUser user;
